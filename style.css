@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+html{
+    font-size: 70%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.hero{
+    background-image: url(./img/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+    padding: 20px 10%;
+    
+    
+    
+}
+.hero .detail h4{
+    font-size: 1.7rem;
+    margin-bottom: -15px;
+}
+.hero .detail h1{
+    font-size: 3.5rem;
+    color:rgba(243, 15, 72, 0.986) ;
+}
+.bio-details p,
+.hero .detail p{
+    font-size: 1.3rem;
+    line-height: 24px;
+    color: dimgray;
+    
+}
+.btn{
+    padding: 12px 25px;
+    background-color: rgba(243, 15, 72, 0.986);
+    font-size: 1.1rem;
+    color: white;
+    /* text-transform: uppercase; */
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    flex-basis: 50%;
+    
+}
+.avatar{
+    width: 400px;
+    display: flex;
+    
+}
+.avatar img{
+    width: 400px;
+    margin: auto;
+ 
+}
+.biography{
+    align-items: center;
+    background-image: url(./img/biography-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.biography_img{
+    width: 400px;
+    
+}
+.bio-details{
+    padding-left: 40px;
+}
+.bio-details h2{
+    font-size: 2rem;
+}
+section{
+    padding: 100px 10%;
+    
+}
+.work{
+    background-image: url(./img/latest-work-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.work-img{
+    
+    justify-content: space-around;
+}
+.work h2{
+    text-align: center;
+    font-size: 3.5rem;
+    padding-bottom: 40px;
+}
+
+.work-img .items{
+    
+    width: 450px;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 10% ;
+}
+footer h3{
+    font-size: 3.5rem;
+   
+}
+footer h5{
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin: 0;
+   
+}
+
+footer h6{
+    font-size: 1.1rem;
+    line-height: 24px;
+    color: dimgray;
+    margin: 0;
+   
+}
+footer q{
+    display: block;
+    width: 450px;
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin: 30px 0;
+    text-align: center;
+   
+}
+footer .email-container{
+    text-align: center;
+    width: 700px;
+    background-color: rgba(226, 10, 154, 0.808);
+    padding:30px 0 ;
+    color: white;
+    border-radius: 8px;
+}
+footer .email-container h3{
+    margin: 10px 0 20px;
+    font-size: 3rem;
+    
+}
+footer .email-container h5{
+    
+    font-size: 1.4rem;
+
+
+}
+.pre-footer p{
+    font-size: 1.4rem;
+    color: dimgray;
+    text-align: center;
+    padding-bottom: 10px;
+}
